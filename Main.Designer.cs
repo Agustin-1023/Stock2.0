@@ -34,6 +34,14 @@ namespace Stock2._0
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.modulo_stock = new System.Windows.Forms.ComboBox();
             this.grilla_stock = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idmoduloDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tipoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descripcionDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.estadoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codigoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cantidadDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.repuestosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.buscar_stock = new System.Windows.Forms.Button();
             this.equipo_stock = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -44,9 +52,16 @@ namespace Stock2._0
             this.label10 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.DGVsucursales = new System.Windows.Forms.DataGridView();
+            this.idsucursalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreclienteDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombresucursalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.direccionsucursalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sucursalBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label21 = new System.Windows.Forms.Label();
             this.combo_ing_suc = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.nombreclienteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.nombre_cliente = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.Ingresar_sucursal = new System.Windows.Forms.Button();
@@ -57,6 +72,10 @@ namespace Stock2._0
             this.label7 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.DGVmodulos = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idequipoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.modulosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.lista_equipos = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -130,42 +149,29 @@ namespace Stock2._0
             this.flag1 = new System.Windows.Forms.Label();
             this.flag2 = new System.Windows.Forms.Label();
             this.flag3 = new System.Windows.Forms.Label();
-            this.idDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.idmoduloDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tipoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descripcionDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.estadoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.codigoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cantidadDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.repuestosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.idsucursalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombreclienteDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombresucursalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.direccionsucursalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sucursalBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.nombreclienteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.idequipoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.modulosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.equiposBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.usuario_db = new System.Windows.Forms.TextBox();
+            this.nombre_db = new System.Windows.Forms.TextBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
             this.PestaMain.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grilla_stock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repuestosBindingSource)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVsucursales)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sucursalBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVmodulos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modulosBindingSource)).BeginInit();
             this.tabPage6.SuspendLayout();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVrepuestosEquipo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repuestosBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sucursalBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modulosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.equiposBindingSource)).BeginInit();
+            this.tabPage7.SuspendLayout();
             this.SuspendLayout();
             // 
             // PestaMain
@@ -176,6 +182,7 @@ namespace Stock2._0
             this.PestaMain.Controls.Add(this.tabPage6);
             this.PestaMain.Controls.Add(this.tabPage5);
             this.PestaMain.Controls.Add(this.tabPage4);
+            this.PestaMain.Controls.Add(this.tabPage7);
             this.PestaMain.Location = new System.Drawing.Point(-1, 2);
             this.PestaMain.Name = "PestaMain";
             this.PestaMain.SelectedIndex = 0;
@@ -228,6 +235,66 @@ namespace Stock2._0
             this.grilla_stock.RowTemplate.Height = 28;
             this.grilla_stock.Size = new System.Drawing.Size(1319, 422);
             this.grilla_stock.TabIndex = 9;
+            // 
+            // idDataGridViewTextBoxColumn2
+            // 
+            this.idDataGridViewTextBoxColumn2.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn2.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn2.MinimumWidth = 8;
+            this.idDataGridViewTextBoxColumn2.Name = "idDataGridViewTextBoxColumn2";
+            this.idDataGridViewTextBoxColumn2.Width = 150;
+            // 
+            // idmoduloDataGridViewTextBoxColumn1
+            // 
+            this.idmoduloDataGridViewTextBoxColumn1.DataPropertyName = "id_modulo";
+            this.idmoduloDataGridViewTextBoxColumn1.HeaderText = "id_modulo";
+            this.idmoduloDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.idmoduloDataGridViewTextBoxColumn1.Name = "idmoduloDataGridViewTextBoxColumn1";
+            this.idmoduloDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // tipoDataGridViewTextBoxColumn1
+            // 
+            this.tipoDataGridViewTextBoxColumn1.DataPropertyName = "tipo";
+            this.tipoDataGridViewTextBoxColumn1.HeaderText = "tipo";
+            this.tipoDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.tipoDataGridViewTextBoxColumn1.Name = "tipoDataGridViewTextBoxColumn1";
+            this.tipoDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // descripcionDataGridViewTextBoxColumn1
+            // 
+            this.descripcionDataGridViewTextBoxColumn1.DataPropertyName = "descripcion";
+            this.descripcionDataGridViewTextBoxColumn1.HeaderText = "descripcion";
+            this.descripcionDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.descripcionDataGridViewTextBoxColumn1.Name = "descripcionDataGridViewTextBoxColumn1";
+            this.descripcionDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // estadoDataGridViewTextBoxColumn1
+            // 
+            this.estadoDataGridViewTextBoxColumn1.DataPropertyName = "estado";
+            this.estadoDataGridViewTextBoxColumn1.HeaderText = "estado";
+            this.estadoDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.estadoDataGridViewTextBoxColumn1.Name = "estadoDataGridViewTextBoxColumn1";
+            this.estadoDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // codigoDataGridViewTextBoxColumn1
+            // 
+            this.codigoDataGridViewTextBoxColumn1.DataPropertyName = "codigo";
+            this.codigoDataGridViewTextBoxColumn1.HeaderText = "codigo";
+            this.codigoDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.codigoDataGridViewTextBoxColumn1.Name = "codigoDataGridViewTextBoxColumn1";
+            this.codigoDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // cantidadDataGridViewTextBoxColumn1
+            // 
+            this.cantidadDataGridViewTextBoxColumn1.DataPropertyName = "cantidad";
+            this.cantidadDataGridViewTextBoxColumn1.HeaderText = "cantidad";
+            this.cantidadDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.cantidadDataGridViewTextBoxColumn1.Name = "cantidadDataGridViewTextBoxColumn1";
+            this.cantidadDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // repuestosBindingSource
+            // 
+            this.repuestosBindingSource.DataSource = typeof(Stock2._0.Repuestos);
             // 
             // buscar_stock
             // 
@@ -338,6 +405,47 @@ namespace Stock2._0
             this.DGVsucursales.Size = new System.Drawing.Size(884, 432);
             this.DGVsucursales.TabIndex = 14;
             // 
+            // idsucursalDataGridViewTextBoxColumn
+            // 
+            this.idsucursalDataGridViewTextBoxColumn.DataPropertyName = "id_sucursal";
+            this.idsucursalDataGridViewTextBoxColumn.HeaderText = "id sucursal";
+            this.idsucursalDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.idsucursalDataGridViewTextBoxColumn.Name = "idsucursalDataGridViewTextBoxColumn";
+            this.idsucursalDataGridViewTextBoxColumn.ReadOnly = true;
+            this.idsucursalDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // nombreclienteDataGridViewTextBoxColumn1
+            // 
+            this.nombreclienteDataGridViewTextBoxColumn1.DataPropertyName = "nombre_cliente";
+            this.nombreclienteDataGridViewTextBoxColumn1.HeaderText = "nombre_cliente";
+            this.nombreclienteDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.nombreclienteDataGridViewTextBoxColumn1.Name = "nombreclienteDataGridViewTextBoxColumn1";
+            this.nombreclienteDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.nombreclienteDataGridViewTextBoxColumn1.Visible = false;
+            this.nombreclienteDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // nombresucursalDataGridViewTextBoxColumn
+            // 
+            this.nombresucursalDataGridViewTextBoxColumn.DataPropertyName = "nombre_sucursal";
+            this.nombresucursalDataGridViewTextBoxColumn.HeaderText = "nombre sucursal";
+            this.nombresucursalDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.nombresucursalDataGridViewTextBoxColumn.Name = "nombresucursalDataGridViewTextBoxColumn";
+            this.nombresucursalDataGridViewTextBoxColumn.ReadOnly = true;
+            this.nombresucursalDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // direccionsucursalDataGridViewTextBoxColumn
+            // 
+            this.direccionsucursalDataGridViewTextBoxColumn.DataPropertyName = "direccion_sucursal";
+            this.direccionsucursalDataGridViewTextBoxColumn.HeaderText = "direccion";
+            this.direccionsucursalDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.direccionsucursalDataGridViewTextBoxColumn.Name = "direccionsucursalDataGridViewTextBoxColumn";
+            this.direccionsucursalDataGridViewTextBoxColumn.ReadOnly = true;
+            this.direccionsucursalDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // sucursalBindingSource
+            // 
+            this.sucursalBindingSource.DataSource = typeof(Stock2._0.Sucursal);
+            // 
             // label21
             // 
             this.label21.AutoSize = true;
@@ -371,6 +479,19 @@ namespace Stock2._0
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(436, 432);
             this.dataGridView1.TabIndex = 9;
+            // 
+            // nombreclienteDataGridViewTextBoxColumn
+            // 
+            this.nombreclienteDataGridViewTextBoxColumn.DataPropertyName = "nombre_cliente";
+            this.nombreclienteDataGridViewTextBoxColumn.HeaderText = "nombre cliente";
+            this.nombreclienteDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.nombreclienteDataGridViewTextBoxColumn.Name = "nombreclienteDataGridViewTextBoxColumn";
+            this.nombreclienteDataGridViewTextBoxColumn.ReadOnly = true;
+            this.nombreclienteDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // clientesBindingSource
+            // 
+            this.clientesBindingSource.DataSource = typeof(Stock2._0.Clientes);
             // 
             // nombre_cliente
             // 
@@ -498,6 +619,36 @@ namespace Stock2._0
             this.DGVmodulos.RowTemplate.Height = 28;
             this.DGVmodulos.Size = new System.Drawing.Size(228, 392);
             this.DGVmodulos.TabIndex = 65;
+            // 
+            // idDataGridViewTextBoxColumn
+            // 
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.Visible = false;
+            this.idDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // idequipoDataGridViewTextBoxColumn
+            // 
+            this.idequipoDataGridViewTextBoxColumn.DataPropertyName = "id_equipo";
+            this.idequipoDataGridViewTextBoxColumn.HeaderText = "id_equipo";
+            this.idequipoDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.idequipoDataGridViewTextBoxColumn.Name = "idequipoDataGridViewTextBoxColumn";
+            this.idequipoDataGridViewTextBoxColumn.Visible = false;
+            this.idequipoDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // nombreDataGridViewTextBoxColumn
+            // 
+            this.nombreDataGridViewTextBoxColumn.DataPropertyName = "nombre";
+            this.nombreDataGridViewTextBoxColumn.HeaderText = "nombre";
+            this.nombreDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.nombreDataGridViewTextBoxColumn.Name = "nombreDataGridViewTextBoxColumn";
+            this.nombreDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // modulosBindingSource
+            // 
+            this.modulosBindingSource.DataSource = typeof(Stock2._0.Modulos);
             // 
             // lista_equipos
             // 
@@ -1178,153 +1329,54 @@ namespace Stock2._0
             this.flag3.TabIndex = 7;
             this.flag3.Text = "label20";
             // 
-            // idDataGridViewTextBoxColumn2
-            // 
-            this.idDataGridViewTextBoxColumn2.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn2.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn2.MinimumWidth = 8;
-            this.idDataGridViewTextBoxColumn2.Name = "idDataGridViewTextBoxColumn2";
-            this.idDataGridViewTextBoxColumn2.Width = 150;
-            // 
-            // idmoduloDataGridViewTextBoxColumn1
-            // 
-            this.idmoduloDataGridViewTextBoxColumn1.DataPropertyName = "id_modulo";
-            this.idmoduloDataGridViewTextBoxColumn1.HeaderText = "id_modulo";
-            this.idmoduloDataGridViewTextBoxColumn1.MinimumWidth = 8;
-            this.idmoduloDataGridViewTextBoxColumn1.Name = "idmoduloDataGridViewTextBoxColumn1";
-            this.idmoduloDataGridViewTextBoxColumn1.Width = 150;
-            // 
-            // tipoDataGridViewTextBoxColumn1
-            // 
-            this.tipoDataGridViewTextBoxColumn1.DataPropertyName = "tipo";
-            this.tipoDataGridViewTextBoxColumn1.HeaderText = "tipo";
-            this.tipoDataGridViewTextBoxColumn1.MinimumWidth = 8;
-            this.tipoDataGridViewTextBoxColumn1.Name = "tipoDataGridViewTextBoxColumn1";
-            this.tipoDataGridViewTextBoxColumn1.Width = 150;
-            // 
-            // descripcionDataGridViewTextBoxColumn1
-            // 
-            this.descripcionDataGridViewTextBoxColumn1.DataPropertyName = "descripcion";
-            this.descripcionDataGridViewTextBoxColumn1.HeaderText = "descripcion";
-            this.descripcionDataGridViewTextBoxColumn1.MinimumWidth = 8;
-            this.descripcionDataGridViewTextBoxColumn1.Name = "descripcionDataGridViewTextBoxColumn1";
-            this.descripcionDataGridViewTextBoxColumn1.Width = 150;
-            // 
-            // estadoDataGridViewTextBoxColumn1
-            // 
-            this.estadoDataGridViewTextBoxColumn1.DataPropertyName = "estado";
-            this.estadoDataGridViewTextBoxColumn1.HeaderText = "estado";
-            this.estadoDataGridViewTextBoxColumn1.MinimumWidth = 8;
-            this.estadoDataGridViewTextBoxColumn1.Name = "estadoDataGridViewTextBoxColumn1";
-            this.estadoDataGridViewTextBoxColumn1.Width = 150;
-            // 
-            // codigoDataGridViewTextBoxColumn1
-            // 
-            this.codigoDataGridViewTextBoxColumn1.DataPropertyName = "codigo";
-            this.codigoDataGridViewTextBoxColumn1.HeaderText = "codigo";
-            this.codigoDataGridViewTextBoxColumn1.MinimumWidth = 8;
-            this.codigoDataGridViewTextBoxColumn1.Name = "codigoDataGridViewTextBoxColumn1";
-            this.codigoDataGridViewTextBoxColumn1.Width = 150;
-            // 
-            // cantidadDataGridViewTextBoxColumn1
-            // 
-            this.cantidadDataGridViewTextBoxColumn1.DataPropertyName = "cantidad";
-            this.cantidadDataGridViewTextBoxColumn1.HeaderText = "cantidad";
-            this.cantidadDataGridViewTextBoxColumn1.MinimumWidth = 8;
-            this.cantidadDataGridViewTextBoxColumn1.Name = "cantidadDataGridViewTextBoxColumn1";
-            this.cantidadDataGridViewTextBoxColumn1.Width = 150;
-            // 
-            // repuestosBindingSource
-            // 
-            this.repuestosBindingSource.DataSource = typeof(Stock2._0.Repuestos);
-            // 
-            // idsucursalDataGridViewTextBoxColumn
-            // 
-            this.idsucursalDataGridViewTextBoxColumn.DataPropertyName = "id_sucursal";
-            this.idsucursalDataGridViewTextBoxColumn.HeaderText = "id sucursal";
-            this.idsucursalDataGridViewTextBoxColumn.MinimumWidth = 8;
-            this.idsucursalDataGridViewTextBoxColumn.Name = "idsucursalDataGridViewTextBoxColumn";
-            this.idsucursalDataGridViewTextBoxColumn.ReadOnly = true;
-            this.idsucursalDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // nombreclienteDataGridViewTextBoxColumn1
-            // 
-            this.nombreclienteDataGridViewTextBoxColumn1.DataPropertyName = "nombre_cliente";
-            this.nombreclienteDataGridViewTextBoxColumn1.HeaderText = "nombre_cliente";
-            this.nombreclienteDataGridViewTextBoxColumn1.MinimumWidth = 8;
-            this.nombreclienteDataGridViewTextBoxColumn1.Name = "nombreclienteDataGridViewTextBoxColumn1";
-            this.nombreclienteDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.nombreclienteDataGridViewTextBoxColumn1.Visible = false;
-            this.nombreclienteDataGridViewTextBoxColumn1.Width = 150;
-            // 
-            // nombresucursalDataGridViewTextBoxColumn
-            // 
-            this.nombresucursalDataGridViewTextBoxColumn.DataPropertyName = "nombre_sucursal";
-            this.nombresucursalDataGridViewTextBoxColumn.HeaderText = "nombre sucursal";
-            this.nombresucursalDataGridViewTextBoxColumn.MinimumWidth = 8;
-            this.nombresucursalDataGridViewTextBoxColumn.Name = "nombresucursalDataGridViewTextBoxColumn";
-            this.nombresucursalDataGridViewTextBoxColumn.ReadOnly = true;
-            this.nombresucursalDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // direccionsucursalDataGridViewTextBoxColumn
-            // 
-            this.direccionsucursalDataGridViewTextBoxColumn.DataPropertyName = "direccion_sucursal";
-            this.direccionsucursalDataGridViewTextBoxColumn.HeaderText = "direccion";
-            this.direccionsucursalDataGridViewTextBoxColumn.MinimumWidth = 8;
-            this.direccionsucursalDataGridViewTextBoxColumn.Name = "direccionsucursalDataGridViewTextBoxColumn";
-            this.direccionsucursalDataGridViewTextBoxColumn.ReadOnly = true;
-            this.direccionsucursalDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // sucursalBindingSource
-            // 
-            this.sucursalBindingSource.DataSource = typeof(Stock2._0.Sucursal);
-            // 
-            // nombreclienteDataGridViewTextBoxColumn
-            // 
-            this.nombreclienteDataGridViewTextBoxColumn.DataPropertyName = "nombre_cliente";
-            this.nombreclienteDataGridViewTextBoxColumn.HeaderText = "nombre cliente";
-            this.nombreclienteDataGridViewTextBoxColumn.MinimumWidth = 8;
-            this.nombreclienteDataGridViewTextBoxColumn.Name = "nombreclienteDataGridViewTextBoxColumn";
-            this.nombreclienteDataGridViewTextBoxColumn.ReadOnly = true;
-            this.nombreclienteDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // clientesBindingSource
-            // 
-            this.clientesBindingSource.DataSource = typeof(Stock2._0.Clientes);
-            // 
-            // idDataGridViewTextBoxColumn
-            // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn.MinimumWidth = 8;
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.Visible = false;
-            this.idDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // idequipoDataGridViewTextBoxColumn
-            // 
-            this.idequipoDataGridViewTextBoxColumn.DataPropertyName = "id_equipo";
-            this.idequipoDataGridViewTextBoxColumn.HeaderText = "id_equipo";
-            this.idequipoDataGridViewTextBoxColumn.MinimumWidth = 8;
-            this.idequipoDataGridViewTextBoxColumn.Name = "idequipoDataGridViewTextBoxColumn";
-            this.idequipoDataGridViewTextBoxColumn.Visible = false;
-            this.idequipoDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // nombreDataGridViewTextBoxColumn
-            // 
-            this.nombreDataGridViewTextBoxColumn.DataPropertyName = "nombre";
-            this.nombreDataGridViewTextBoxColumn.HeaderText = "nombre";
-            this.nombreDataGridViewTextBoxColumn.MinimumWidth = 8;
-            this.nombreDataGridViewTextBoxColumn.Name = "nombreDataGridViewTextBoxColumn";
-            this.nombreDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // modulosBindingSource
-            // 
-            this.modulosBindingSource.DataSource = typeof(Stock2._0.Modulos);
-            // 
             // equiposBindingSource
             // 
             this.equiposBindingSource.DataSource = typeof(Stock2._0.Equipos);
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Controls.Add(this.label40);
+            this.tabPage7.Controls.Add(this.label39);
+            this.tabPage7.Controls.Add(this.nombre_db);
+            this.tabPage7.Controls.Add(this.usuario_db);
+            this.tabPage7.Location = new System.Drawing.Point(4, 29);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(1427, 565);
+            this.tabPage7.TabIndex = 7;
+            this.tabPage7.Text = "Configuraciones";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // usuario_db
+            // 
+            this.usuario_db.Location = new System.Drawing.Point(182, 73);
+            this.usuario_db.Name = "usuario_db";
+            this.usuario_db.Size = new System.Drawing.Size(128, 26);
+            this.usuario_db.TabIndex = 0;
+            // 
+            // nombre_db
+            // 
+            this.nombre_db.Location = new System.Drawing.Point(182, 126);
+            this.nombre_db.Name = "nombre_db";
+            this.nombre_db.Size = new System.Drawing.Size(128, 26);
+            this.nombre_db.TabIndex = 1;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(43, 76);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(113, 20);
+            this.label39.TabIndex = 2;
+            this.label39.Text = "Usuario de DB";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(43, 129);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(114, 20);
+            this.label40.TabIndex = 3;
+            this.label40.Text = "Nombre de DB";
             // 
             // Main
             // 
@@ -1345,23 +1397,25 @@ namespace Stock2._0
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grilla_stock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repuestosBindingSource)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVsucursales)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sucursalBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVmodulos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modulosBindingSource)).EndInit();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVrepuestosEquipo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repuestosBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sucursalBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modulosBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.equiposBindingSource)).EndInit();
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1490,6 +1544,11 @@ namespace Stock2._0
         private System.Windows.Forms.ComboBox ingreso_stock_combo_cliente;
         private System.Windows.Forms.ComboBox Combo_tipo_stock;
         private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.TextBox usuario_db;
+        private System.Windows.Forms.TextBox nombre_db;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label39;
     }
 }
 

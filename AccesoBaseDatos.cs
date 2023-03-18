@@ -407,7 +407,7 @@ VALUES (@id_sucursal, @modelo, @numero_serie, @ip, @mac);";
                 {
                     equipos.Add(new Equipos
                     {
-                        modelo = reader["modelo"].ToString(),
+                        modelo = reader["modelo"].ToString()
                     });
                 }
             }
@@ -430,8 +430,6 @@ VALUES (@id_sucursal, @modelo, @numero_serie, @ip, @mac);";
                 conn.Open();
                 string query = @"INSERT INTO repuestos (id_modulo, tipo, descripcion, estado, codigo, cantidad)
                 VALUES (@id_modulo, @tipo, @descripcion, @estado, @codigo, @cantidad);";
-//                INSERT INTO stock_repuestos(id_repuesto, cantidad, id_equipo, id_modulo)
-//VALUES(id_repuesto_value, cantidad_value, id_equipo_value, id_modulo_value);
 
                 SqlParameter id_modulo = new SqlParameter();
                 id_modulo.ParameterName = "@id_modulo";
